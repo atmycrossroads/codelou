@@ -1,0 +1,15 @@
+h1{
+    font-size: 2.25em;
+    margin-top: 0.5em;
+}
+
+.banner{
+    max-width: 100%;
+    
+}
+
+.sub-title{
+    background-color:cornsilk;
+    font-size: 1.5em;
+    padding: 10px;
+}
