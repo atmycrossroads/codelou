@@ -65,6 +65,10 @@ article{
 
 }
 
+.columns{
+    display: flex;
+}
+
 
 @media only screen and (min-width: 768px){
     main{
@@ -73,4 +77,47 @@ article{
     aside{
         margin-left: 2%;
     }
+
+    .columns-desktop{
+        display: flex;
+    }
+}
+
+/* Styles specific to the menu page */
+
+.breakfast{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border: solid 1px rgb(108, 184, 108);
+}
+
+.breakfast img{
+    width: 100%;
+}
+
+.breakfast .title{
+    font-weight: bold;
+}
+
+.breakfast .columns{
+    width: 100%;
+}
+
+.breakfast .price{
+    text-align: right;
+}
+
+.breakfast .columns div{
+    width: 50%;
+}
+
+.breakfast  button{
+    background-color: rgb(108, 184, 108);
+    padding: 10px;
+    border: solid 1px darkgreen;
+    border-radius: 3px;
+    color: white;
+
 }
